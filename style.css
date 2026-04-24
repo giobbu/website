@@ -1,9 +1,37 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color: #f0f0f0;
+  color: black;
   text-align: center;
   margin-top: 50px;
 }
 h1 {
   color: black;
 }
+
+.social-links {
+  display: flex;  /* use flexbox for layout */
+  justify-content: center;   /* center the links horizontally */
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: flex;
+  flex-direction: column; /* stack icon + text vertically */
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.social-links i {
+  font-size: 36px;
+  margin-bottom: 6px;
+}
+
+.social-links a:hover {
+  color: #333;
+}
+
+
